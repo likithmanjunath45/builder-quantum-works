@@ -13,7 +13,8 @@ import {
   Shield,
   BarChart3,
   Database,
-  Cloud
+  Cloud,
+  Mail
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
