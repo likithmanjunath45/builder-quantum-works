@@ -256,19 +256,19 @@ export default function Certifications() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-blue-600 mb-2">3</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">6</div>
               <div className="text-slate-600">Certifications Earned</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">1</div>
-              <div className="text-slate-600">In Progress</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">6.40</div>
+              <div className="text-slate-600">CPE Credits</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-purple-600 mb-2">2</div>
-              <div className="text-slate-600">Planned for 2024</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">4</div>
+              <div className="text-slate-600">Years Learning</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-orange-600 mb-2">5+</div>
+              <div className="text-3xl font-bold text-orange-600 mb-2">6+</div>
               <div className="text-slate-600">Technology Domains</div>
             </div>
           </div>
