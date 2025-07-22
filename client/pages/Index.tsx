@@ -272,7 +272,7 @@ export default function Index() {
       </section>
 
       {/* Certifications Section */}
-      <section id="certifications" className="py-20 px-6 bg-white">
+      <section id="certifications" className="py-20 px-6 bg-gradient-to-br from-purple-50 via-pink-50 to-rose-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">Certifications</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
