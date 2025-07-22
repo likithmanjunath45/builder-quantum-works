@@ -337,7 +337,7 @@ export default function Projects() {
                 Contact Me
               </Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600" onClick={() => window.open('https://cdn.builder.io/o/assets%2F3c50cb312aa9437c94989f67e76b7685%2F58c52dc2ae054ee785a3984404351358?alt=media&token=cd15c3c0-4c4f-46da-983f-c8b46993e41b&apiKey=3c50cb312aa9437c94989f67e76b7685', '_blank')}>
               <ExternalLink className="w-4 h-4 mr-2" />
               View Resume
             </Button>
