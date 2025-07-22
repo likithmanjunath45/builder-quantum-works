@@ -257,7 +257,7 @@ export default function Projects() {
       </section>
 
       {/* Professional Work */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-gradient-to-br from-violet-50 via-purple-50 to-fuchsia-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-12">Professional Work</h2>
           <div className="grid md:grid-cols-3 gap-8">
