@@ -252,7 +252,7 @@ export default function Certifications() {
       </section>
 
       {/* Stats */}
-      <section className="py-16 px-6 bg-slate-50">
+      <section className="py-16 px-6 bg-gradient-to-br from-indigo-50 via-purple-50 to-violet-50">
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
