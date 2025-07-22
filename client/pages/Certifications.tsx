@@ -210,7 +210,7 @@ export default function Certifications() {
       </section>
 
       {/* Learning Path */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-gradient-to-br from-green-50 via-teal-50 to-cyan-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">My Learning Journey</h2>
           <div className="relative">
