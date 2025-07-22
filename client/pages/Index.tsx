@@ -116,7 +116,7 @@ export default function Index() {
               <a href="#projects" className="text-slate-600 hover:text-slate-900 transition-colors">Projects</a>
               <a href="#contact" className="text-slate-600 hover:text-slate-900 transition-colors">Contact</a>
             </div>
-            <Button variant="outline" size="sm">
+            <Button variant="outline" size="sm" onClick={() => window.open('https://cdn.builder.io/o/assets%2F3c50cb312aa9437c94989f67e76b7685%2F58c52dc2ae054ee785a3984404351358?alt=media&token=cd15c3c0-4c4f-46da-983f-c8b46993e41b&apiKey=3c50cb312aa9437c94989f67e76b7685', '_blank')}>
               <Download className="w-4 h-4 mr-2" />
               Resume
             </Button>
