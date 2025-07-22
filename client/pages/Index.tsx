@@ -402,11 +402,11 @@ export default function Index() {
               <Mail className="w-4 h-4 mr-2" />
               likithscholar@gmail.com
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100">
               <Phone className="w-4 h-4 mr-2" />
               (346) 285-5924
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100">
               <Linkedin className="w-4 h-4 mr-2" />
               LinkedIn Profile
             </Button>
