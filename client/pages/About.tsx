@@ -80,7 +80,7 @@ export default function About() {
       </section>
 
       {/* Story Section */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-gradient-to-br from-white via-green-50 to-emerald-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-8">My Journey</h2>
           <div className="prose prose-lg max-w-none">
