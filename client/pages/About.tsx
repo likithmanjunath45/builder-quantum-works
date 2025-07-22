@@ -129,7 +129,7 @@ export default function About() {
       </section>
 
       {/* Achievements Section */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-gradient-to-br from-orange-50 via-amber-50 to-yellow-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 mb-8">Key Achievements</h2>
           <Card className="p-6">
