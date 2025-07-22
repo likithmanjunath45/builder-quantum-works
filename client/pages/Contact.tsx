@@ -145,7 +145,7 @@ export default function Contact() {
       </section>
 
       {/* Featured Contact Card */}
-      <section className="py-16 px-6 bg-white">
+      <section className="py-16 px-6 bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50">
         <div className="max-w-4xl mx-auto">
           <Card className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
             <div className="text-center">
