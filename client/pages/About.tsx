@@ -224,11 +224,11 @@ export default function About() {
             I'm always excited to take on new challenges and collaborate on innovative projects.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100">
-              View My Projects
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
+              <Link to="/projects">View My Projects</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
-              Get In Touch
+            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600" asChild>
+              <Link to="/contact">Get In Touch</Link>
             </Button>
           </div>
         </div>
