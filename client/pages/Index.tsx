@@ -406,7 +406,7 @@ export default function Index() {
               <Phone className="w-4 h-4 mr-2" />
               (346) 285-5924
             </Button>
-            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100" onClick={() => window.open('https://www.linkedin.com/in/likith-gowda-manjunath-4905ba197/', '_blank')}>
               <Linkedin className="w-4 h-4 mr-2" />
               LinkedIn Profile
             </Button>
