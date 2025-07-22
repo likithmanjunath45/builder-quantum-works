@@ -362,7 +362,7 @@ export default function Index() {
       </section>
 
       {/* Education Section */}
-      <section className="py-20 px-6 bg-white">
+      <section className="py-20 px-6 bg-gradient-to-br from-indigo-50 via-violet-50 to-purple-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">Education</h2>
           <div className="grid md:grid-cols-2 gap-8">
