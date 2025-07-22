@@ -268,8 +268,8 @@ export default function About() {
           <div className="mt-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
             <h3 className="font-semibold text-slate-900 mb-2">Continuous Learning</h3>
             <p className="text-slate-700 text-sm">
-              I actively pursue professional certifications to stay current with industry standards and emerging technologies.
-              Currently working towards AWS Solutions Architect certification and advanced Java programming certifications.
+              I actively pursue professional certifications from leading institutions like McKinsey, LinkedIn Learning, and Udemy.
+              My recent certifications span strategic thinking, AI/ML on Azure, data analytics foundations, and cybersecurity practices.
             </p>
           </div>
         </div>
