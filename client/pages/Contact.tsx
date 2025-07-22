@@ -36,7 +36,7 @@ export default function Contact() {
       title: "LinkedIn",
       description: "Connect with me professionally",
       value: "LinkedIn Profile",
-      action: "#",
+      action: "https://www.linkedin.com/in/likith-gowda-manjunath-4905ba197/",
       color: "from-blue-600 to-blue-700"
     }
   ];
