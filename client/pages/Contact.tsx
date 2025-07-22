@@ -38,14 +38,6 @@ export default function Contact() {
       value: "LinkedIn Profile",
       action: "#",
       color: "from-blue-600 to-blue-700"
-    },
-    {
-      icon: <MapPin className="w-6 h-6" />,
-      title: "Location",
-      description: "Based in the NYC area",
-      value: "Jersey City, NJ 07306",
-      action: "#",
-      color: "from-purple-500 to-purple-600"
     }
   ];
 
