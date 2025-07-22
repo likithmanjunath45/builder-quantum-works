@@ -253,12 +253,12 @@ export default function About() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="border-l-4 border-purple-500 pl-4">
-                    <h4 className="font-medium text-slate-900">Microsoft Power BI Data Analyst</h4>
-                    <p className="text-sm text-slate-600">Advanced data visualization and business intelligence</p>
+                    <h4 className="font-medium text-slate-900">Data Analytics Foundations</h4>
+                    <p className="text-sm text-slate-600">NASBA-accredited statistical analysis and data fundamentals</p>
                   </div>
                   <div className="border-l-4 border-orange-500 pl-4">
-                    <h4 className="font-medium text-slate-900">Data Pipeline Certification</h4>
-                    <p className="text-sm text-slate-600">ETL processes and data warehouse management</p>
+                    <h4 className="font-medium text-slate-900">SQL & MySQL for Business Intelligence</h4>
+                    <p className="text-sm text-slate-600">Advanced database queries and analytics applications</p>
                   </div>
                 </div>
               </CardContent>
