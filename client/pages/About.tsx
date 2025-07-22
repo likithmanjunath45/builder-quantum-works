@@ -216,6 +216,64 @@ export default function About() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section className="py-16 px-6 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-slate-900 mb-8">Professional Certifications</h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Card className="p-6">
+              <CardHeader>
+                <div className="flex items-center mb-4">
+                  <Database className="w-6 h-6 text-blue-600 mr-2" />
+                  <CardTitle className="text-lg">Database & Cloud Certifications</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-blue-500 pl-4">
+                    <h4 className="font-medium text-slate-900">Oracle Database Fundamentals</h4>
+                    <p className="text-sm text-slate-600">Advanced database management and optimization</p>
+                  </div>
+                  <div className="border-l-4 border-green-500 pl-4">
+                    <h4 className="font-medium text-slate-900">Microsoft Azure Fundamentals</h4>
+                    <p className="text-sm text-slate-600">Cloud architecture and deployment strategies</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6">
+              <CardHeader>
+                <div className="flex items-center mb-4">
+                  <BarChart3 className="w-6 h-6 text-purple-600 mr-2" />
+                  <CardTitle className="text-lg">Data Analytics Certifications</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-4">
+                  <div className="border-l-4 border-purple-500 pl-4">
+                    <h4 className="font-medium text-slate-900">Microsoft Power BI Data Analyst</h4>
+                    <p className="text-sm text-slate-600">Advanced data visualization and business intelligence</p>
+                  </div>
+                  <div className="border-l-4 border-orange-500 pl-4">
+                    <h4 className="font-medium text-slate-900">Data Pipeline Certification</h4>
+                    <p className="text-sm text-slate-600">ETL processes and data warehouse management</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-8 p-6 bg-blue-50 rounded-lg border border-blue-200">
+            <h3 className="font-semibold text-slate-900 mb-2">Continuous Learning</h3>
+            <p className="text-slate-700 text-sm">
+              I actively pursue professional certifications to stay current with industry standards and emerging technologies.
+              Currently working towards AWS Solutions Architect certification and advanced Java programming certifications.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 px-6 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
         <div className="max-w-4xl mx-auto text-center">
