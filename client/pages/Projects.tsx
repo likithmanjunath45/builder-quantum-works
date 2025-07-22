@@ -287,7 +287,7 @@ export default function Projects() {
       </section>
 
       {/* Skills Overview */}
-      <section className="py-16 px-6 bg-slate-50">
+      <section className="py-16 px-6 bg-gradient-to-br from-rose-50 via-pink-50 to-red-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-slate-900 mb-8">Technical Skills Demonstrated</h2>
           <div className="grid md:grid-cols-4 gap-6">
