@@ -161,7 +161,7 @@ export default function Index() {
                   Get In Touch
                 </Link>
               </Button>
-              <Button variant="outline" size="lg" onClick={() => window.open('#', '_blank')}>
+              <Button variant="outline" size="lg" onClick={() => window.open('https://www.linkedin.com/in/likith-gowda-manjunath-4905ba197/', '_blank')}>
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </Button>
