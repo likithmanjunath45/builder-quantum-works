@@ -232,12 +232,12 @@ export default function About() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="border-l-4 border-blue-500 pl-4">
-                    <h4 className="font-medium text-slate-900">Oracle Database Fundamentals</h4>
-                    <p className="text-sm text-slate-600">Advanced database management and optimization</p>
+                    <h4 className="font-medium text-slate-900">Azure AI Essentials</h4>
+                    <p className="text-sm text-slate-600">Machine learning workloads and AI services on Azure</p>
                   </div>
                   <div className="border-l-4 border-green-500 pl-4">
-                    <h4 className="font-medium text-slate-900">Microsoft Azure Fundamentals</h4>
-                    <p className="text-sm text-slate-600">Cloud architecture and deployment strategies</p>
+                    <h4 className="font-medium text-slate-900">AWS Cloud Computing</h4>
+                    <p className="text-sm text-slate-600">Cloud fundamentals and AWS service architecture</p>
                   </div>
                 </div>
               </CardContent>
