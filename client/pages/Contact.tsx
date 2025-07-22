@@ -96,7 +96,7 @@ export default function Contact() {
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-slate-900 mb-12">Get In Touch</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-3 gap-6 mb-16">
             {contactMethods.map((method, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 overflow-hidden">
                 <div className={`h-2 bg-gradient-to-r ${method.color}`}></div>
