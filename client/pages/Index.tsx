@@ -270,6 +270,67 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section id="certifications" className="py-20 px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">Certifications</h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Placeholder for actual certifications */}
+            <Card className="p-6 hover:shadow-lg transition-shadow">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Database className="w-8 h-8 text-blue-600" />
+                </div>
+                <CardTitle className="text-lg">Oracle Database Certification</CardTitle>
+                <CardDescription className="text-blue-600 font-medium">Oracle Corporation</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-slate-600 text-sm mb-4">Oracle Database fundamentals and advanced concepts</p>
+                <Badge variant="outline" className="text-xs">Database Management</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6 hover:shadow-lg transition-shadow">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <Cloud className="w-8 h-8 text-green-600" />
+                </div>
+                <CardTitle className="text-lg">Azure Fundamentals</CardTitle>
+                <CardDescription className="text-blue-600 font-medium">Microsoft</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-slate-600 text-sm mb-4">Microsoft Azure cloud services and solutions</p>
+                <Badge variant="outline" className="text-xs">Cloud Computing</Badge>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6 hover:shadow-lg transition-shadow">
+              <CardHeader className="text-center pb-4">
+                <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-4">
+                  <BarChart3 className="w-8 h-8 text-purple-600" />
+                </div>
+                <CardTitle className="text-lg">Power BI Data Analyst</CardTitle>
+                <CardDescription className="text-blue-600 font-medium">Microsoft</CardDescription>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="text-slate-600 text-sm mb-4">Advanced data visualization and analytics with Power BI</p>
+                <Badge variant="outline" className="text-xs">Data Analytics</Badge>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <p className="text-slate-600 mb-6">
+              Continuously expanding my knowledge through professional certifications and training programs.
+            </p>
+            <Button variant="outline" className="inline-flex items-center">
+              <ExternalLink className="w-4 h-4 mr-2" />
+              View All Certifications
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Projects Section */}
       <section id="projects" className="py-20 px-6 bg-slate-50">
         <div className="max-w-6xl mx-auto">
