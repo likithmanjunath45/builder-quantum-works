@@ -20,70 +20,70 @@ import { Link } from "react-router-dom";
 export default function Certifications() {
   const certifications = [
     {
-      title: "Oracle Database Fundamentals",
-      issuer: "Oracle Corporation",
-      date: "2023",
+      title: "McKinsey.org Forward Program",
+      issuer: "McKinsey & Company",
+      date: "Jul 2025",
       status: "Certified",
-      description: "Comprehensive certification covering database design, SQL optimization, and advanced Oracle database management concepts.",
-      skills: ["SQL", "Database Design", "Performance Tuning", "PL/SQL"],
-      icon: <Database className="w-8 h-8" />,
-      color: "from-red-500 to-orange-500",
-      credentialId: "OCP-2023-DB001"
+      description: "Completed McKinsey's online learning program focused on developing practical skills for success in the future of work, covering digital problem-solving and strategic thinking.",
+      skills: ["Strategic Thinking", "Problem Solving", "Digital Skills", "Business Strategy"],
+      icon: <Target className="w-8 h-8" />,
+      color: "from-blue-600 to-indigo-600",
+      credentialId: "McKinsey Forward Program"
     },
     {
-      title: "Microsoft Azure Fundamentals (AZ-900)",
-      issuer: "Microsoft",
-      date: "2023",
+      title: "Microsoft Azure AI Essentials: Workloads and Machine Learning on Azure",
+      issuer: "LinkedIn Learning",
+      date: "Apr 2025",
       status: "Certified",
-      description: "Foundation-level certification demonstrating knowledge of cloud concepts, Azure services, workloads, security, and pricing.",
-      skills: ["Azure Services", "Cloud Computing", "Security", "Compliance"],
+      description: "Comprehensive course on Azure AI services, machine learning workloads, and implementing AI solutions on the Azure platform. Completed 3 hours 23 minutes of training.",
+      skills: ["Machine Learning", "Microsoft Azure", "AI Workloads", "Cloud AI"],
       icon: <Cloud className="w-8 h-8" />,
       color: "from-blue-500 to-cyan-500",
-      credentialId: "AZ900-2023-001"
+      credentialId: "f29f0394e08ccfac1ec80eca43dab53827844926fc37cb8c5490491f2253e8c6"
     },
     {
-      title: "Microsoft Power BI Data Analyst (PL-300)",
-      issuer: "Microsoft",
-      date: "2024",
+      title: "Learning Data Analytics: 1 Foundations",
+      issuer: "LinkedIn Learning",
+      date: "May 2025",
       status: "Certified",
-      description: "Advanced certification for designing and building scalable data models, cleaning and transforming data, and enabling advanced analytics.",
-      skills: ["Power BI", "DAX", "Power Query", "Data Modeling"],
+      description: "NASBA-accredited course covering fundamental data analytics concepts and methodologies. Earned 6.40 CPE credits in Statistics field of study.",
+      skills: ["Data Analytics", "Statistics", "Data Foundations", "Business Intelligence"],
       icon: <BarChart3 className="w-8 h-8" />,
-      color: "from-yellow-500 to-orange-500",
-      credentialId: "PL300-2024-001"
+      color: "from-green-500 to-emerald-500",
+      credentialId: "7cc8f1350ef5b983c371c1eaff4f245d640bda6f510daf7b7c1e370ec6ebcb5e"
     },
     {
-      title: "AWS Solutions Architect Associate",
-      issuer: "Amazon Web Services",
-      date: "In Progress",
-      status: "In Progress",
-      description: "Currently preparing for this certification which validates expertise in designing distributed systems on AWS.",
-      skills: ["AWS", "Cloud Architecture", "Solutions Design", "DevOps"],
-      icon: <Cloud className="w-8 h-8" />,
+      title: "SQL - MySQL for Data Analytics and Business Intelligence",
+      issuer: "Udemy",
+      date: "May 2022",
+      status: "Certified",
+      description: "Comprehensive 10-hour course covering MySQL database management, advanced SQL queries, and business intelligence applications for data analytics.",
+      skills: ["SQL", "MySQL", "Data Analytics", "Business Intelligence"],
+      icon: <Database className="w-8 h-8" />,
       color: "from-orange-500 to-red-500",
-      credentialId: "Expected Q2 2024"
+      credentialId: "UC-438cc339-037f-419c-8830-1d4e4b9b8824"
     },
     {
-      title: "Oracle Certified Professional Java SE",
-      issuer: "Oracle Corporation",
-      date: "Planned",
-      status: "Planned",
-      description: "Planning to obtain this certification to demonstrate advanced Java programming skills and object-oriented design principles.",
-      skills: ["Java", "OOP", "Spring Framework", "Microservices"],
-      icon: <Code className="w-8 h-8" />,
-      color: "from-purple-500 to-pink-500",
-      credentialId: "Planned for 2024"
+      title: "Introduction to Cloud Computing on AWS for Beginners",
+      issuer: "Udemy",
+      date: "Feb 2022",
+      status: "Certified",
+      description: "8-hour comprehensive course on AWS cloud computing fundamentals, covering core services, architecture, and best practices for beginners.",
+      skills: ["AWS", "Cloud Computing", "Cloud Architecture", "DevOps"],
+      icon: <Cloud className="w-8 h-8" />,
+      color: "from-yellow-500 to-orange-500",
+      credentialId: "UC-e3465d87-b1a2-4a80-8776-c314ed1b6a41"
     },
     {
-      title: "Certified Ethical Hacker (CEH)",
-      issuer: "EC-Council",
-      date: "Future Goal",
-      status: "Future Goal",
-      description: "Future certification goal to understand cybersecurity from an offensive perspective and strengthen application security knowledge.",
-      skills: ["Cybersecurity", "Penetration Testing", "Network Security", "Risk Assessment"],
+      title: "Goldman Sachs Engineering Virtual Program",
+      issuer: "Goldman Sachs (via Forage)",
+      date: "Sep 2021",
+      status: "Certified",
+      description: "Completed practical cybersecurity task modules including cracking leaked password databases and understanding information security practices.",
+      skills: ["Cybersecurity", "Password Security", "Information Security", "Risk Assessment"],
       icon: <Shield className="w-8 h-8" />,
-      color: "from-green-500 to-teal-500",
-      credentialId: "Future Planning"
+      color: "from-purple-500 to-pink-500",
+      credentialId: "XvDibX2tJ3crB9TxY"
     }
   ];
 
