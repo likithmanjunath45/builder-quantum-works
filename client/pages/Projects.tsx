@@ -330,9 +330,11 @@ export default function Projects() {
             I'm always looking for exciting projects and opportunities to create innovative solutions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100">
-              <Mail className="w-4 h-4 mr-2" />
-              Contact Me
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
+              <Link to="/contact">
+                <Mail className="w-4 h-4 mr-2" />
+                Contact Me
+              </Link>
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600">
               <ExternalLink className="w-4 h-4 mr-2" />
