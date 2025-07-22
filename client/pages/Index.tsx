@@ -170,6 +170,49 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Professional Summary Section */}
+      <section className="py-20 px-6 bg-gradient-to-br from-white via-slate-50 to-gray-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8">Professional Summary</h2>
+          <div className="text-lg text-slate-700 leading-relaxed space-y-6">
+            <p>
+              I am a <span className="font-semibold text-blue-600">dedicated Full Stack Software Developer and Data Analyst</span> with
+              extensive experience in building scalable applications and implementing data-driven solutions. Currently serving as a
+              <span className="font-semibold text-slate-900"> Staff Analyst at MTA New York City Transit</span>, I specialize in
+              developing robust data pipelines, creating insightful visualizations, and optimizing operational efficiency.
+            </p>
+            <p>
+              My technical expertise spans <span className="font-semibold text-green-600">Java, JavaScript, Python, and SQL</span>,
+              with hands-on experience in <span className="font-semibold text-purple-600">Apache Airflow, Azure Data Lake, Power BI, and cloud technologies</span>.
+              I have successfully increased operational efficiency by 80% through innovative data solutions and reduced client onboarding time by 40%
+              through automated platform development.
+            </p>
+            <p>
+              Armed with a <span className="font-semibold text-indigo-600">Master's degree in Computer Science from Stevens Institute of Technology (GPA: 3.8)</span>
+              and professional certifications from McKinsey, Microsoft, and LinkedIn Learning, I am passionate about leveraging technology to solve
+              complex business challenges and drive organizational growth.
+            </p>
+            <div className="grid md:grid-cols-3 gap-8 mt-12">
+              <div className="p-6 bg-blue-50 rounded-lg border border-blue-200">
+                <div className="text-2xl font-bold text-blue-600 mb-2">4+</div>
+                <div className="text-sm font-medium text-slate-700">Years Experience</div>
+                <div className="text-xs text-slate-600 mt-1">In Software Development & Data Analytics</div>
+              </div>
+              <div className="p-6 bg-green-50 rounded-lg border border-green-200">
+                <div className="text-2xl font-bold text-green-600 mb-2">80%</div>
+                <div className="text-sm font-medium text-slate-700">Efficiency Improvement</div>
+                <div className="text-xs text-slate-600 mt-1">Through Data-Driven Solutions</div>
+              </div>
+              <div className="p-6 bg-purple-50 rounded-lg border border-purple-200">
+                <div className="text-2xl font-bold text-purple-600 mb-2">6+</div>
+                <div className="text-sm font-medium text-slate-700">Professional Certifications</div>
+                <div className="text-xs text-slate-600 mt-1">From Leading Industry Organizations</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section */}
       <section id="about" className="py-20 px-6 bg-gradient-to-br from-white via-blue-50 to-cyan-50">
         <div className="max-w-6xl mx-auto">
