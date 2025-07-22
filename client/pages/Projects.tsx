@@ -153,6 +153,7 @@ export default function Projects() {
               <Link to="/" className="text-slate-600 hover:text-slate-900 transition-colors">Home</Link>
               <Link to="/about" className="text-slate-600 hover:text-slate-900 transition-colors">About</Link>
               <Link to="/projects" className="text-slate-900 font-medium">Projects</Link>
+              <Link to="/certifications" className="text-slate-600 hover:text-slate-900 transition-colors">Certifications</Link>
               <Link to="/contact" className="text-slate-600 hover:text-slate-900 transition-colors">Contact</Link>
             </div>
           </div>
