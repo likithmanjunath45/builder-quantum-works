@@ -171,7 +171,7 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6 bg-white">
+      <section id="about" className="py-20 px-6 bg-gradient-to-br from-white via-blue-50 to-cyan-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">About Me</h2>
           <div className="grid md:grid-cols-3 gap-8">
