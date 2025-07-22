@@ -154,11 +154,13 @@ export default function Index() {
               </div>
             </div>
             <div className="flex justify-center gap-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                <Mail className="w-4 h-4 mr-2" />
-                Get In Touch
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
+                <Link to="/contact">
+                  <Mail className="w-4 h-4 mr-2" />
+                  Get In Touch
+                </Link>
               </Button>
-              <Button variant="outline" size="lg">
+              <Button variant="outline" size="lg" onClick={() => window.open('#', '_blank')}>
                 <Linkedin className="w-4 h-4 mr-2" />
                 LinkedIn
               </Button>
