@@ -240,16 +240,7 @@ export default function Projects() {
                       </div>
                     </div>
 
-                    <div className="flex gap-3">
-                      <Button variant="outline" size="sm" disabled>
-                        <Eye className="w-4 h-4 mr-2" />
-                        View Demo
-                      </Button>
-                      <Button variant="outline" size="sm" disabled>
-                        <Github className="w-4 h-4 mr-2" />
-                        Source Code
-                      </Button>
-                    </div>
+
                   </div>
                 </div>
               </Card>
