@@ -181,9 +181,9 @@ export default function Certifications() {
                     
                     <div className="mb-4">
                       <h4 className="font-medium text-slate-900 mb-2 text-sm">Skills Covered</h4>
-                      <div className="flex flex-wrap gap-1">
+                      <div className="flex flex-wrap gap-1 max-w-full">
                         {cert.skills.map((skill) => (
-                          <Badge key={skill} variant="outline" className="text-xs">
+                          <Badge key={skill} variant="outline" className="text-xs break-words">
                             {skill}
                           </Badge>
                         ))}
