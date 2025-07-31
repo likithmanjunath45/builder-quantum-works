@@ -329,7 +329,7 @@ export default function Index() {
             </p>
             <div className="grid md:grid-cols-3 gap-8 mt-12">
               <div className="p-6 bg-blue-50 rounded-lg border border-blue-200">
-                <div className="text-2xl font-bold text-blue-600 mb-2">4+</div>
+                <div className="text-2xl font-bold text-blue-600 mb-2">2</div>
                 <div className="text-sm font-medium text-slate-700">
                   Years Experience
                 </div>
