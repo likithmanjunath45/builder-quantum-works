@@ -156,13 +156,13 @@ export default function Certifications() {
           <div className="grid lg:grid-cols-2 gap-8">
             {certifications.map((cert, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-all duration-300">
-                <div className="flex">
-                  <div className="w-24 flex-shrink-0">
+                <div className="flex min-h-[200px]">
+                  <div className="w-20 flex-shrink-0">
                     <div className={`h-full bg-gradient-to-b ${cert.color} flex items-center justify-center text-white`}>
                       {cert.icon}
                     </div>
                   </div>
-                  <div className="flex-1 p-6">
+                  <div className="flex-1 p-6 min-w-0">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1 pr-4 min-w-0">
                         <h3 className="text-lg font-bold text-slate-900 mb-1 leading-tight break-words">{cert.title}</h3>
