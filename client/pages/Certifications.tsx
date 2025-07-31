@@ -164,16 +164,16 @@ export default function Certifications() {
                   </div>
                   <div className="flex-1 p-6">
                     <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h3 className="text-xl font-bold text-slate-900 mb-1">{cert.title}</h3>
+                      <div className="flex-1 pr-4 min-w-0">
+                        <h3 className="text-lg font-bold text-slate-900 mb-1 leading-tight break-words">{cert.title}</h3>
                         <p className="text-blue-600 font-medium text-sm">{cert.issuer}</p>
                       </div>
-                      <div className="ml-4 flex flex-col items-end">
-                        <Badge className={`${getStatusColor(cert.status)} border text-xs mb-2 flex items-center gap-1`}>
+                      <div className="ml-2 flex flex-col items-end flex-shrink-0">
+                        <Badge className={`${getStatusColor(cert.status)} border text-xs mb-2 flex items-center gap-1 whitespace-nowrap`}>
                           {getStatusIcon(cert.status)}
                           {cert.status}
                         </Badge>
-                        <span className="text-xs text-slate-500">{cert.date}</span>
+                        <span className="text-xs text-slate-500 whitespace-nowrap">{cert.date}</span>
                       </div>
                     </div>
                     
