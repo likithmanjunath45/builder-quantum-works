@@ -366,9 +366,11 @@ export default function Index() {
             <p className="text-slate-600 mb-6">
               Continuously expanding my knowledge through professional certifications and training programs.
             </p>
-            <Button variant="outline" className="inline-flex items-center">
-              <ExternalLink className="w-4 h-4 mr-2" />
-              View All Certifications
+            <Button variant="outline" className="inline-flex items-center" asChild>
+              <Link to="/certifications">
+                <ExternalLink className="w-4 h-4 mr-2" />
+                View All Certifications
+              </Link>
             </Button>
           </div>
         </div>
