@@ -232,7 +232,7 @@ export default function Certifications() {
                       {cert.icon}
                     </div>
                   </div>
-                  <div className="flex-1 p-6 min-w-0">
+                  <div className="flex-1 p-6 min-w-0 flex flex-col">
                     <div className="flex items-start justify-between mb-4">
                       <div className="flex-1 pr-4 min-w-0">
                         <h3 className="text-lg font-bold text-slate-900 mb-1 leading-tight break-words">
