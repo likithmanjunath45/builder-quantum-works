@@ -227,9 +227,11 @@ export default function Certifications() {
                 <div className="flex w-full">
                   <div className="w-20 flex-shrink-0">
                     <div
-                      className={`h-full min-h-full bg-gradient-to-b ${cert.color} flex items-center justify-center text-white`}
+                      className={`h-full min-h-full bg-gradient-to-b ${cert.color} flex flex-col items-center justify-center text-white p-2`}
                     >
-                      {cert.icon}
+                      <div className="flex items-center justify-center">
+                        {cert.icon}
+                      </div>
                     </div>
                   </div>
                   <div className="flex-1 p-6 min-w-0 flex flex-col">
