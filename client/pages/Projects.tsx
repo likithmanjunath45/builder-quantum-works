@@ -184,11 +184,13 @@ export default function Projects() {
               <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="md:flex">
                   <div className="md:w-1/3">
-                    <div className={`h-64 md:h-full bg-gradient-to-br ${project.color} flex items-center justify-center text-white`}>
-                      <div className="text-center">
-                        {project.icon}
-                        <h3 className="mt-4 text-xl font-bold">{project.title}</h3>
-                        <p className="text-sm opacity-90">{project.type}</p>
+                    <div className={`h-64 md:h-full bg-gradient-to-br ${project.color} flex flex-col items-center justify-center text-white p-6`}>
+                      <div className="text-center flex flex-col items-center justify-center h-full">
+                        <div className="mb-4">
+                          {project.icon}
+                        </div>
+                        <h3 className="text-xl font-bold mb-2 text-center leading-tight">{project.title}</h3>
+                        <p className="text-sm opacity-90 text-center">{project.type}</p>
                       </div>
                     </div>
                   </div>
