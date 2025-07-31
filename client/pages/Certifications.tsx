@@ -222,12 +222,12 @@ export default function Certifications() {
             {certifications.map((cert, index) => (
               <Card
                 key={index}
-                className="overflow-hidden hover:shadow-xl transition-all duration-300"
+                className="overflow-hidden hover:shadow-xl transition-all duration-300 flex"
               >
-                <div className="flex min-h-[200px]">
+                <div className="flex w-full">
                   <div className="w-20 flex-shrink-0">
                     <div
-                      className={`h-full bg-gradient-to-b ${cert.color} flex items-center justify-center text-white`}
+                      className={`h-full min-h-full bg-gradient-to-b ${cert.color} flex items-center justify-center text-white`}
                     >
                       {cert.icon}
                     </div>
