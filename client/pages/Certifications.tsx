@@ -177,7 +177,7 @@ export default function Certifications() {
                       </div>
                     </div>
                     
-                    <p className="text-slate-600 text-sm mb-4">{cert.description}</p>
+                    <p className="text-slate-600 text-sm mb-4 leading-relaxed break-words">{cert.description}</p>
                     
                     <div className="mb-4">
                       <h4 className="font-medium text-slate-900 mb-2 text-sm">Skills Covered</h4>
