@@ -363,8 +363,8 @@ export default function Projects() {
                 key={index}
                 className="p-6 hover:shadow-lg transition-shadow"
               >
-                <CardHeader className="pb-4">
-                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+                <CardHeader className="pb-4 text-center">
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 text-blue-600 mx-auto">
                     {work.icon}
                   </div>
                   <CardTitle className="text-lg">{work.title}</CardTitle>
@@ -372,11 +372,11 @@ export default function Projects() {
                     {work.company}
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="text-center">
                   <p className="text-slate-600 mb-4 text-sm">
                     {work.description}
                   </p>
-                  <div className="flex flex-wrap gap-1">
+                  <div className="flex flex-wrap gap-1 justify-center">
                     {work.technologies.map((tech) => (
                       <Badge key={tech} variant="outline" className="text-xs">
                         {tech}
