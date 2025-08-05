@@ -278,12 +278,12 @@ export default function Certifications() {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between">
-                      <div className="text-xs text-slate-500">
-                        ID: {cert.credentialId}
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="text-xs text-slate-500 flex-1 min-w-0">
+                        <span className="break-all">ID: {cert.credentialId}</span>
                       </div>
                       {cert.status === "Certified" && (
-                        <Button variant="outline" size="sm" disabled>
+                        <Button variant="outline" size="sm" disabled className="flex-shrink-0">
                           <ExternalLink className="w-3 h-3 mr-1" />
                           Verify
                         </Button>
