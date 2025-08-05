@@ -21,7 +21,9 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.DEV ? '' : '/builder-quantum-works'}>
+      <BrowserRouter
+        basename={import.meta.env.DEV ? "" : "/builder-quantum-works"}
+      >
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
