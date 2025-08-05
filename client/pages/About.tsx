@@ -286,7 +286,7 @@ export default function About() {
             <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
               <Link to="/projects">View My Projects</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600" asChild>
+            <Button size="lg" variant="secondary" className="bg-white text-blue-600 hover:bg-gray-100" asChild>
               <Link to="/contact">Get In Touch</Link>
             </Button>
           </div>
